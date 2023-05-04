@@ -1,0 +1,26 @@
+.dropDownMenu{
+    position: absolute;
+    border-radius: 4px;
+    top: 80%;
+    width: 160px;
+    height: 200px;
+    background-color: white;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+
+}
+
+.text{
+    color: black;
+    user-select: none;
+    font-size: 16px;
+
+}
+.textPadding{
+    padding: 10px 18px;
+    display: flex;
+    justify-content: start;
+}
+.logoutText{
+    margin-top: 18px;
+    border-top: 1px solid rgba(0,0,0,0.1);
+}

@@ -1,0 +1,79 @@
+.firstBar {
+    height: 280px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.middleBar {
+    height: 260px;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+
+.middleBar p {
+    margin: 0;
+}
+
+.secondBar {
+    padding: 16px;
+}
+
+.lastBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+    width: 100%;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    background-color: #dddddd;
+    padding: 4px;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+.header {
+    color: rgb(87, 87, 224);
+    justify-content: start;
+    font-size: 28px;
+    padding: 0 0 12px 0;
+}
+
+.price {
+    font-size: 20px;
+    padding: 12px 0;
+}
+
+.submit {
+    padding: 10px;
+    background-color: #e6dddd;
+    border: 2px solid #289b32;
+    border-radius: 8px;
+    color: #289b32;
+}
+
+.productBar {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    /* 3 колонки */
+    grid-gap: 10px;
+    /* відстань між елементами */
+    position: absolute;
+    left: 200px;
+
+}
+
+.productBars {
+    margin: 30px;
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    border-radius: 8px;
+    max-width: 1200px;
+
+}
+
+.img {
+    height: 100%;
+    width: 100%;
+}

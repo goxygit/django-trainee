@@ -1,0 +1,41 @@
+.inputForm{
+    padding: 16px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 19px;
+    border: 1px solid #c5bdbd;
+    outline: none;
+    color: #b1adad;
+    border-radius: 4px;
+}
+.loginLabel{
+    display: flex;
+    flex-direction: column;
+    padding: 22px 0 0 0;
+}
+.loginText{
+    padding: 0 0 12px; 
+
+}
+.loginText > span{
+    font-size: 16px;
+}
+.autorizeBlock{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 22px;
+}
+.returnPassword{
+    color: black;
+    font-size: 18px;
+}
+.loginSubmit{
+    float: right;
+    padding: 8px;
+    font-size: 24px;
+    border: none;
+    background-color: #282b4e;
+    color: white;
+    border-radius: 6px;
+}

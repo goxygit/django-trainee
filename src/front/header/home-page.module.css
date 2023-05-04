@@ -1,0 +1,90 @@
+.header {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 58px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    border-bottom: 1px solid #cacdd4;
+    width: 100%;
+    z-index: 9999;
+    
+}
+span{
+    color: #050505;
+}
+.navigate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    margin: 0 220px;
+    width: 100%;
+}
+
+.navPanel {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    cursor: pointer;
+}
+
+span {
+    font-size: 18px;
+}
+
+.headerText {
+    font-size: 24px;
+}
+
+.navElements {
+    padding-right: 20px;
+
+}
+
+.navText {
+    padding-right: 8px;
+}
+
+.Element {
+    width: 16px;
+    height: 16px;
+    padding-right: 6px;
+}
+
+.profileElement {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    user-select: none;
+    cursor: pointer;
+}
+
+.fadeEnter {
+    opacity: 0;
+}
+
+.fadeEnterActive {
+    opacity: 1;
+    transition: opacity 200ms;
+}
+
+.fadeExit {
+    opacity: 1;
+}
+
+.fadeExitActive {
+    opacity: 0;
+    transition: opacity 200ms;
+}
